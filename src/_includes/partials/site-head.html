@@ -1,0 +1,30 @@
+<div class="top-bar">
+    <div class="top-bar-left">
+        <ul class="menu">
+            <li class="menu-text">PHY241 <small>Observational Astronomy</small></li>
+        </ul>
+    </div>
+    <div class="top-bar-right">
+        <ul class="dropdown menu" data-dropdown-menu>
+            <li><a href="{{ site.url }}/index.html"><i class="fi-home"></i></a></li>
+            <li>
+                <a href="#">Lectures</a>
+                <ul class="menu vertical">
+                    {% for item in navigation.lectures %}
+                    <li><a href="{{ site.url }}/lectures/{{item.url}}">{{item.text}}</a></li>
+                    {% endfor %}
+                </ul>
+            </li>
+            <li>
+                <a href=" #">Practicals</a>
+                <ul class="menu vertical">
+                    {% for item in navigation.practicals %}
+                    <li><a href="{{ site.url }}/practicals/{{item.url}}">{{item.text}}</a></li>
+                    {% endfor %}
+                </ul>
+            </li>
+            <li><a href=" {{ site.url }}/course_info/">Course Info</a></li>
+            <li><a href="{{ site.url }}/observing/">Observing Project</a></li>
+        </ul>
+    </div>
+</div>

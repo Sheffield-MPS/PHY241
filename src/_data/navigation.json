@@ -1,0 +1,82 @@
+{
+    "lectures": [
+        {
+            "text": "The Photon's Path",
+            "url": "l01"
+        },
+        {
+            "text": "Telescopes I",
+            "url": "l02"
+        },
+        {
+            "text": "Telescopes II",
+            "url": "l03"
+        },
+        {
+            "text": "Cameras",
+            "url": "l04"
+        },
+        {
+            "text": "Photometry I",
+            "url": "l05"
+        },
+        {
+            "text": "Detectors",
+            "url": "l06"
+        },
+        {
+            "text": "Photometry II",
+            "url": "l07"
+        },
+        {
+            "text": "Basic Stats",
+            "url": "l08"
+        },
+        {
+            "text": "Signal/Noise",
+            "url": "l09"
+        },
+        {
+            "text": "The Bayesian Astronomer",
+            "url": "l10"
+        }
+    ],
+    "practicals": [
+        {
+            "text": "Python 1: Numpy",
+            "url": "py01"
+        },
+        {
+            "text": "Python 2: Plotting",
+            "url": "py02"
+        },
+        {
+            "text": "Python 3: Scipy",
+            "url": "py03"
+        },
+        {
+            "text": "Python 4: Differential Equations",
+            "url": "py04"
+        },
+        {
+            "text": "Relative Photometry",
+            "url": "relphot"
+        },
+        {
+            "text": "Python 5: Calibrating CCD data",
+            "url": "py05"
+        },
+        {
+            "text": "Python 6: Absolute Photometry",
+            "url": "py06"
+        },
+        {
+            "text": "Python 7: HR diagrams",
+            "url": "py07"
+        },
+        {
+            "text": "Python 8: Model fitting",
+            "url": "py08"
+        }
+    ]
+}
