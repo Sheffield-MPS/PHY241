@@ -295,12 +295,15 @@ sections: [
 
                 <div class="cell small-10">
                     {% set fig = figures['light_pollution'] %}
-                    <div class="responsive-embed">
+                    <!-- 
+                    <div class="responsive-embed widescreen">
                         <iframe src="{{ fig.url }}"></iframe>
                     </div>
                     <figure id="figure{{fig.fignum}}">
                         <figcaption><strong>Figure {{fig.fignum}}: </strong>{{fig.caption | safe }}</figcaption>
                     </figure>
+                    -->
+                    {%showfigure "light_pollution" %}
                 </div>
 
                 <div class="cell">

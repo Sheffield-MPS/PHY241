@@ -28,6 +28,10 @@ var all_figures = {
         "filename": "files/small_668.gif",
         "caption": "Propagation of wavefronts through the atmosphere. Credit: Vik Dhillon"
     },
+    "seeing_examples": {
+        'filename': 'files/small_674.gif',
+        'caption': ' <strong>Left:</strong> Example of a short-exposure (of order milliseconds) image of a point source through a ~10 cm ground-based telescope. The fact that the first diffraction ring can just be seen surrounding the Airy disc implies that the instantaneous resolution is close to the diffraction limit, but significant image motion would cause blurring in a longer exposure, similar to that shown in the right-hand panel. <strong>Centre:</strong> Short-exposure image of a point source through a ~1 m ground-based telescope. The image is broken up into bright, dancing speckles, which are smeared-out in the longer-exposure image shown in the <strong>right-hand panel</strong>. Credit: Vik Dhillon'
+    },
     "seeing_disc": {
         "filename": "files/small_687.png",
         "caption": "Schematic showing the seeing profile of a star and how the FWHM is measured. Credit: Vik Dhillon"
@@ -131,8 +135,9 @@ var all_figures = {
         "caption": "Monthly average cloud cover, as revealed by NASA's Terra satellite. Colours range from blue (no clouds) to white (totally cloudy)."
     },
     "light_pollution": {
+        'filename': 'files/world2020B_low3.png',
         "url": "http://djlorenz.github.io/astronomy/lp2006/overlay/dark.html",
-        "caption": "Google Maps overlay showing global light pollution, as recorded in the <a href='http://djlorenz.github.io/astronomy/lp2006/'>World Atlas of Artificial Night Sky Brightness (2006)</a>"
+        "caption": "Image showing global light pollution, as recorded in the <a href='http://djlorenz.github.io/astronomy/lp2020/'>World Atlas of Artificial Night Sky Brightness (2020)</a>"
     },
     "bigscopes": {
         "url": "todo",
