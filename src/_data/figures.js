@@ -271,7 +271,7 @@ var all_figures = {
     },
     'error_bars': {
         'filename': 'files/small_4923.png',
-        'caption': "a visual demonstration of error bar sizes. <strong>Top:</strong> Correctly sized error bars, as expected roughly one third of the points lie 1\(\sigma\) or more away from the 'true' value, represented by the straight line. <strong>Middle:</strong> Error bars are two small. <strong>Bottom:</strong> Error bars are too large."
+        'caption': String.raw`a visual demonstration of error bar sizes. <strong>Top:</strong> Correctly sized error bars, as expected roughly one third of the points lie 1\(\sigma\) or more away from the 'true' value, represented by the straight line. <strong>Middle:</strong> Error bars are two small. <strong>Bottom:</strong> Error bars are too large.`
     },
     'propagation': {
         'filename': 'files/small_4942.png',
@@ -295,7 +295,7 @@ var all_figures = {
     },
     'distances': {
         'filename': 'files/small_79.png',
-        'caption': 'Bayesian distance estimation. The measured parallax naively suggests a distance of \(150 \pm 30\) pc. This is shown in the histogram, and the green line. Proper consideration of the prior knowledge of the distance  gives the probability distribution in red, which is biased towards larger distances, and has a most probable distance of 161 pc.'
+        'caption': String.raw`Bayesian distance estimation. The measured parallax naively suggests a distance of \(150 \pm 30\) pc. This is shown in the histogram, and the green line. Proper consideration of the prior knowledge of the distance  gives the probability distribution in red, which is biased towards larger distances, and has a most probable distance of 161 pc.`
     },
 
     // Relative Photometry Practical
