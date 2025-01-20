@@ -3,7 +3,7 @@ name: Build Eleventy
 on:
   push:
     branches:
-      - gh_pages_test
+      - main
 
 jobs:
   build:
