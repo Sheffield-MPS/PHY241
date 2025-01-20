@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Python Session 2: Plotting data | PHY241</title>
+
+    <link rel="stylesheet" href="https://slittlefair.github.io/phy241_website/css/foundation.css">
+    <link rel="stylesheet" href="https://slittlefair.github.io/phy241_website/css/app.css">
+    <link rel="stylesheet" href="https://slittlefair.github.io/phy241_website/css/mystyles.css">
+    <link rel="stylesheet" href="https://slittlefair.github.io/phy241_website/css/foundation-icons/foundation-icons.css" />
+
+    <script id="MathJax-script" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"
+        integrity='sha512-6FaAxxHuKuzaGHWnV00ftWqP3luSBRSopnNAA2RvQH1fOfnF/A1wOfiUWF7cLIOFcfb1dEhXwo5VG3DAisocRw=='
+        crossorigin="anonymous"></script>
+    <script src="https://slittlefair.github.io/phy241_website/js/vendor/jquery.js"></script>
+    <script src="https://slittlefair.github.io/phy241_website/js/vendor/what-input.js"></script>
+    <script src="https://slittlefair.github.io/phy241_website/js/vendor/foundation.js"></script>
+    <script src="https://slittlefair.github.io/phy241_website/js/app.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(document).foundation();
+        });
+    </script>
+</head>
+
+<body>
+    <div class="top-bar">
+    <div class="top-bar-left">
+        <ul class="menu">
+            <li class="menu-text">PHY241 <small>Observational Astronomy</small></li>
+        </ul>
+    </div>
+    <div class="top-bar-right">
+        <ul class="dropdown menu" data-dropdown-menu>
+            <li><a href="https://slittlefair.github.io/phy241_website/index.html"><i class="fi-home"></i></a></li>
+            <li>
+                <a href="#">Lectures</a>
+                <ul class="menu vertical">
+                    
+                    <li><a href="https://slittlefair.github.io/phy241_website/lectures/l01">The Photon&#39;s Path</a></li>
+                    
+                    <li><a href="https://slittlefair.github.io/phy241_website/lectures/l02">Telescopes I</a></li>
+                    
+                    <li><a href="https://slittlefair.github.io/phy241_website/lectures/l03">Telescopes II</a></li>
+                    
+                    <li><a href="https://slittlefair.github.io/phy241_website/lectures/l04">Cameras</a></li>
+                    
+                    <li><a href="https://slittlefair.github.io/phy241_website/lectures/l05">Photometry I</a></li>
+                    
+                    <li><a href="https://slittlefair.github.io/phy241_website/lectures/l06">Detectors</a></li>
+                    
+                    <li><a href="https://slittlefair.github.io/phy241_website/lectures/l07">Photometry II</a></li>
+                    
+                    <li><a href="https://slittlefair.github.io/phy241_website/lectures/l08">Basic Stats</a></li>
+                    
+                    <li><a href="https://slittlefair.github.io/phy241_website/lectures/l09">Signal/Noise</a></li>
+                    
+                    <li><a href="https://slittlefair.github.io/phy241_website/lectures/l10">The Bayesian Astronomer</a></li>
+                    
+                </ul>
+            </li>
+            <li>
+                <a href=" #">Practicals</a>
+                <ul class="menu vertical">
+                    
+                    <li><a href="https://slittlefair.github.io/phy241_website/practicals/py01">Python 1: Numpy</a></li>
+                    
+                    <li><a href="https://slittlefair.github.io/phy241_website/practicals/py02">Python 2: Plotting</a></li>
+                    
+                    <li><a href="https://slittlefair.github.io/phy241_website/practicals/py03">Python 3: Scipy</a></li>
+                    
+                    <li><a href="https://slittlefair.github.io/phy241_website/practicals/py04">Python 4: Differential Equations</a></li>
+                    
+                    <li><a href="https://slittlefair.github.io/phy241_website/practicals/relphot">Relative Photometry</a></li>
+                    
+                    <li><a href="https://slittlefair.github.io/phy241_website/practicals/py05">Python 5: Calibrating CCD data</a></li>
+                    
+                    <li><a href="https://slittlefair.github.io/phy241_website/practicals/py06">Python 6: Absolute Photometry</a></li>
+                    
+                    <li><a href="https://slittlefair.github.io/phy241_website/practicals/py07">Python 7: HR diagrams</a></li>
+                    
+                    <li><a href="https://slittlefair.github.io/phy241_website/practicals/py08">Python 8: Model fitting</a></li>
+                    
+                </ul>
+            </li>
+            <li><a href=" https://slittlefair.github.io/phy241_website/course_info/">Course Info</a></li>
+            <li><a href="https://slittlefair.github.io/phy241_website/observing/">Observing Project</a></li>
+        </ul>
+    </div>
+</div>
+    <div class="main">
+        
+<!-- HERO SECTION -->
+<section class="hero">
+    <h4>Python Session 2: Plotting data <small>with matplotlib</small></h4>
+</section>
+
+
+<iframe style="position: absolute; width: 100%; height:100%; border: none"
+    src="https://nbviewer.org/github/StuartLittlefair/PHY241/blob/sagemc/assignments/Session2/01_plotting.ipynb"></iframe>
+
+
+    </div>
+    <footer>
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x align-center">
+            <div class="cell small-5">
+                <h5>Contact Info</h5>
+                <hr />
+                <a href="#"><span>Email:</span> s.littlefair@sheffield.ac.uk</a>
+                <a href="#"><span>Address:</span> University of Sheffield, UK</a>
+            </div>
+            <div class="cell small-5">
+                <h5>Re-Use</h5>
+                <hr />
+                <p>These notes are made available under a creative commons license.</p>
+                <a href="https://github.com/StuartLittlefair/phy241_website/blob/main/./src/practicals/py02/index.html"><i
+                        class="fi-social-github"></i> Edit
+                    this Page on GitHub</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
