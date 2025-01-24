@@ -26,3 +26,8 @@ which will fire up the site at [http://localhost:8080](http://localhost:8080).
 
 Eventually, I'll work out how to include foundation using `npm`. For the moment however, I have included the Foundation javascript and css as static files. If you want to upgrade to the latest versions of Foundation/jquery etc, simply replace the relevant files in `src/css` and `src/js`.
 
+### Hosting
+The workflow in `.github/workflows` will ensure that all pushes to the main branch trigger a build
+of the site using Eleventy and the static pages are pushed to the `gh-pages` branch. You can then setup github pages using this branch in the repository to be hosted by your organisation.
+
+The notes for my sheffield course are located at [https://sheffield-mps.github.io/PHY241/](https://sheffield-mps.github.io/PHY241/).
