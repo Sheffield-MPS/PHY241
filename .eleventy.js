@@ -10,7 +10,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('./src/**/*.gif');
     eleventyConfig.addPassthroughCopy('./src/**/*.jpg');
     eleventyConfig.addPassthroughCopy('./src/**/*.mov');
-    eleventyConfig.addPassthroughCopy('./src/**/*.svg');
+    eleventyConfig.addPassthroughCopy('./src/bootcamp/images/*.svg');
 
     var figures = require("./src/_data/figures");
     eleventyConfig.addShortcode("showfigure", function (tag) {
